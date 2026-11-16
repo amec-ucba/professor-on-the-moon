@@ -1,0 +1,133 @@
+/* ==========================================
+   base.css
+   Layout, color and spacing for the feature.
+
+   Don't edit this file.
+   Your work goes in css/typography.css.
+
+   This file has no font properties on purpose:
+   no font-family, font-size, line-height,
+   font-weight, font-style, letter-spacing
+   or text-transform. Every type decision is yours.
+   ========================================== */
+
+/* Base */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #fbfaf7;
+  color: #1b1b1f;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+}
+
+/* Spacing */
+h1 {
+  margin: 0.25rem 0 1rem;
+}
+
+h2 {
+  margin: 2.5rem 0 0.75rem;
+}
+
+p {
+  margin: 0 0 1.25rem;
+}
+
+/* Columns: centered, with room on small screens */
+header,
+main,
+footer {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+}
+
+header {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  padding-bottom: 3rem;
+  border-top: 1px solid #d9d6cf;
+  color: #5a5a63;
+}
+
+footer h2 {
+  margin-top: 0;
+}
+
+/* Header details */
+.kicker {
+  margin: 0;
+}
+
+.deck {
+  color: #3a3a42;
+}
+
+.byline {
+  color: #5a5a63;
+  border-top: 1px solid #d9d6cf;
+  padding-top: 0.75rem;
+}
+
+/* Photo */
+.feature-photo {
+  margin: 0 0 1rem;
+}
+
+figcaption {
+  color: #5a5a63;
+  margin-top: 0.5rem;
+}
+
+/* Pull quote */
+.pull-quote {
+  margin: 2.5rem 0;
+  padding: 1.25rem 0;
+  border-top: 3px solid #1b1b1f;
+  border-bottom: 1px solid #1b1b1f;
+}
+
+.pull-quote p {
+  margin: 0 0 0.75rem;
+}
+
+cite {
+  color: #5a5a63;
+}
+
+/* Sidebar */
+.fast-facts {
+  background-color: #0b1d3a;
+  color: #ffffff;
+  padding: 0.25rem 1.25rem 1.25rem;
+  margin: 2.5rem 0;
+}
+
+.fast-facts h2 {
+  margin-top: 1rem;
+}
+
+.fast-facts dt {
+  margin-top: 0.75rem;
+}
+
+.fast-facts dd {
+  margin-left: 0;
+}
