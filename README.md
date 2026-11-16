@@ -1,7 +1,8 @@
-# 💻 Assignment Boilerplate
+# 🌙 The Professor Who Walked on the Moon
 
-A starting point for assignment and exercise repos. It includes submission instructions, editor and Git configuration,
-and a pull request template so every assignment works the same way.
+A typography exercise for Web Design I. The article about Neil Armstrong's years teaching at the University of
+Cincinnati is already written and laid out. You'll style its type in `css/typography.css`: fonts, sizes, weights, line
+heights and a few splashes of color.
 
 > [!NOTE]
 > `.editorconfig`, `.gitattributes`, `.gitignore`, `.noai`, and the `.github` and `.idea`
@@ -22,15 +23,26 @@ Every assignment follows the same steps. Each guide has screenshots for every st
 |------|----------------------------------------------------------------------------|-----------------------------------------------|
 | 0    | **First assignment only:** install and set up WebStorm                     | [WebStorm Setup](.github/WEBSTORM_SETUP.md)   |
 | 1    | Create your repo from this template, clone it, and make a `develop` branch | [Getting Started](.github/GETTING_STARTED.md) |
-| 2    | Build your page in the root folder                                         | [Where Your Files Go](#-where-your-files-go)  |
+| 2    | Create `css/typography.css`, link it in `index.html`, and style the page   | [Where Your Files Go](#-where-your-files-go)  |
 | 3    | Commit and push often, then turn on GitHub Pages                           | [Publishing](.github/PUBLISHING.md)           |
 | 4    | Open a pull request into `main` and submit its URL in Canvas               | [Submitting](.github/SUBMITTING.md)           |
 
 ## 📂 Where Your Files Go
 
-Create your files in the **root folder** of this repo — the same folder as this README.
-GitHub Pages publishes from the root, so `index.html` has to live there or your site will 404. Group your assets into
-subfolders:
+The starter files are already in the **root folder** of this repo, the same folder as this README. GitHub Pages
+publishes from the root, so leave `index.html` where it is or your site will 404.
+
+```
+index.html               ← add your <link> tags here, nothing else
+css/
+  base.css               ← layout and spacing; don't edit
+  typography.css         ← you create this; all of your work goes here
+images/
+  professor-armstrong.webp
+  final.png              ← example of a finished page
+```
+
+In general, keep `index.html` in the root and group assets into subfolders:
 
 <img src=".github/images/webstorm-project-files.png" alt="The WebStorm Project panel showing index.html in the root folder, with css/style.css, images/photo.jpg, and js/script.js in their own subfolders, all highlighted" width="350">
 
