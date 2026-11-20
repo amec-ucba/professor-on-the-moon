@@ -1,8 +1,8 @@
 # 🌙 The Professor Who Walked on the Moon
 
-A typography exercise for Web Design I.
-
 ## 🎯 Overview
+
+A typography exercise for Web Design I.
 
 You're given a finished feature article about Neil Armstrong's eight years teaching at the University of Cincinnati.
 The HTML is done, and `css/base.css` already handles layout, spacing and background colors. What the page doesn't have
@@ -101,7 +101,7 @@ few accents are enough to guide the eye.
 
 ## 🆘 Getting Help
 
-<!-- Office hours, discussion board, tutoring center, etc. -->
+Ask during class or office hours, or post on the Canvas discussion board.
 
 ---
 
