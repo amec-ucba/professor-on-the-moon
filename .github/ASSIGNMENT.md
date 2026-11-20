@@ -56,8 +56,8 @@ feature.
 - [ ] Add color to at least **two** more pieces of text, such as the kicker or the Fast Facts terms.
 - [ ] Use color as an accent, not on everything. One or two accent colors is plenty.
 - [ ] Every text color has a contrast ratio of at least **4.5:1** against its background. Check with the
-  [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/). UC red (`#e00122`) is a little too light on
-  the cream background. `#c8001e` passes.
+  [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/). Check each color against the background it
+  sits on: UC red (`#e00122`) passes on the cream page (4.79:1) but fails on the navy Fast Facts box (3.35:1).
 
 ## 🖼️ Example Output
 
